@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[32]:
-
 
 from bisect import bisect_right
 
@@ -23,8 +18,6 @@ def elevator_problem(start, floors):
         
     return (visited, cost)
 
-
-# In[35]:
 
 
 if __name__ == "__main__":
